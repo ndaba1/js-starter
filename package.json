@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "git@github.com:ndaba1/js-starter",
   "author": "Victor Ndaba <mwangindaba@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
 }
