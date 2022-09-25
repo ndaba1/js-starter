@@ -6,7 +6,14 @@
   "author": "Victor Ndaba <mwangindaba@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "fmt": "prettier --write ./**/*.{js,ts}",
+    "lint": "eslint .",
+    "check:fmt": "prettier --check ./**/*.{js,ts}",
+    "check:types": "tsc --pretty --noEmit",
+    "prepare": "npx husky install",
+    "check:all": "pnpm check:fmt && pnpm check:types && pnpm lint",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
