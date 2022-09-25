@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "removeComments": false,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "baseUrl": "src",
+    "lib": ["ES6"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
